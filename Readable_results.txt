@@ -1,0 +1,65 @@
+C:\Users\firdous fayaz abbasi\Desktop\Football-Analytics-with-Deep-Learning-and-Computer-Vision-master\Streamlit_web_app>streamlit run main.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.105:8501
+
+Ultralytics YOLOv8.2.59 🚀 Python-3.12.2 torch-2.2.2+cu118 CPU (Intel Core(TM) i5-3427U 1.80GHz)
+Model summary (fused): 268 layers, 43,608,921 parameters, 0 gradients, 164.8 GFLOPs
+
+PyTorch: starting from '..\models\Yolo8L_Players\weights\best.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 7, 8400) (83.6 MB)
+
+ONNX: starting export with onnx 1.16.1 opset 17...
+ONNX: export success ✅ 12.1s, saved as '..\models\Yolo8L_Players\weights\best.onnx' (166.6 MB)
+
+Export complete (28.5s)
+Results saved to C:\Users\firdous fayaz abbasi\Desktop\Football-Analytics-with-Deep-Learning-and-Computer-Vision-master\models\Yolo8L_Players\weights
+Predict:         yolo predict task=detect model=..\models\Yolo8L_Players\weights\best.onnx imgsz=640
+Validate:        yolo val task=detect model=..\models\Yolo8L_Players\weights\best.onnx imgsz=640 data=config_players_dataset.yaml
+Visualize:       https://netron.app
+Ultralytics YOLOv8.2.59 🚀 Python-3.12.2 torch-2.2.2+cu118 CPU (Intel Core(TM) i5-3427U 1.80GHz)
+Ultralytics YOLOv8.2.59 🚀 Python-3.12.2 torch-2.2.2+cu118 CPU (Intel Core(TM) i5-3427U 1.80GHz)
+Model summary (fused): 268 layers, 43,608,921 parameters, 0 gradients, 164.8 GFLOPs
+Model summary (fused): 218 layers, 25,855,972 parameters, 0 gradients, 78.8 GFLOPs
+
+PyTorch: starting from '..\models\Yolo8M_Field_Keypoints\weights\best.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 32, 8400) (49.6 MB)
+
+ONNX: starting export with onnx 1.16.1 opset 17...
+
+PyTorch: starting from '..\models\Yolo8L_Players\weights\best.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 7, 8400) (83.6 MB)
+
+ONNX: starting export with onnx 1.16.1 opset 17...
+ONNX: export success ✅ 7.4s, saved as '..\models\Yolo8M_Field_Keypoints\weights\best.onnx' (98.9 MB)
+
+Export complete (18.4s)
+Results saved to C:\Users\firdous fayaz abbasi\Desktop\Football-Analytics-with-Deep-Learning-and-Computer-Vision-master\models\Yolo8M_Field_Keypoints\weights
+Predict:         yolo predict task=detect model=..\models\Yolo8M_Field_Keypoints\weights\best.onnx imgsz=640
+Validate:        yolo val task=detect model=..\models\Yolo8M_Field_Keypoints\weights\best.onnx imgsz=640 data=config_pitch_dataset.yaml
+Visualize:       https://netron.app
+
+ONNX: export success ✅ 12.7s, saved as '..\models\Yolo8L_Players\weights\best.onnx' (166.6 MB)
+
+Export complete (32.7s)
+Results saved to C:\Users\firdous fayaz abbasi\Desktop\Football-Analytics-with-Deep-Learning-and-Computer-Vision-master\models\Yolo8L_Players\weights
+Predict:         yolo predict task=detect model=..\models\Yolo8L_Players\weights\best.onnx imgsz=640
+Validate:        yolo val task=detect model=..\models\Yolo8L_Players\weights\best.onnx imgsz=640 data=config_players_dataset.yaml
+Visualize:       https://netron.app
+Ultralytics YOLOv8.2.59 🚀 Python-3.12.2 torch-2.2.2+cu118 CPU (Intel Core(TM) i5-3427U 1.80GHz)
+Model summary (fused): 218 layers, 25,855,972 parameters, 0 gradients, 78.8 GFLOPs
+0: 384x640 17 players, 2 referees, 1 ball, 4967.6ms
+Speed: 17.7ms preprocess, 4967.6ms inference, 0.0ms postprocess per image at shape (1, 3, 384, 640)
+
+PyTorch: starting from '..\models\Yolo8M_Field_Keypoints\weights\best.pt' with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 32, 8400) (49.6 MB)
+
+ONNX: starting export with onnx 1.16.1 opset 17...
+ONNX: export success ✅ 6.3s, saved as '..\models\Yolo8M_Field_Keypoints\weights\best.onnx' (98.9 MB)
+
+Export complete (17.1s)
+Results saved to C:\Users\firdous fayaz abbasi\Desktop\Football-Analytics-with-Deep-Learning-and-Computer-Vision-master\models\Yolo8M_Field_Keypoints\weights
+Predict:         yolo predict task=detect model=..\models\Yolo8M_Field_Keypoints\weights\best.onnx imgsz=640
+Validate:        yolo val task=detect model=..\models\Yolo8M_Field_Keypoints\weights\best.onnx imgsz=640 data=config_pitch_dataset.yaml
+Visualize:       https://netron.app
+
+0: 384x640 17 players, 2 referees, 1 ball, 3446.6ms
+Speed: 0.0ms preprocess, 3446.6ms inference, 0.0ms postprocess per image at shape (1, 3, 384, 640)

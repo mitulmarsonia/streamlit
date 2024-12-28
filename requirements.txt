@@ -1,0 +1,7 @@
+torch
+ultralytics
+opencv-python-headless  # Changed from opencv-python to avoid GUI dependencies
+pillow
+scikit-learn
+streamlit
+streamlit_image_coordinates
